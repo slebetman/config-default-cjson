@@ -8,6 +8,10 @@
   },
   "author": "slebetman@gmail.com",
   "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slebetman/config-default-cjson.git"
+  },
   "dependencies": {
     "cjson": "^0.5.0"
   }

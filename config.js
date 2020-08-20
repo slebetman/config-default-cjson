@@ -1,8 +1,9 @@
 const path = require('path');
 const cjson = require('cjson');
+const appRoot = require('app-root-path');
 
 function file (fname) {
-	return path.normalize(path.join(__dirname, '..', fname));
+	return path.normalize(path.join(appRoot, fname));
 }
 
 var conf = cjson.load([
